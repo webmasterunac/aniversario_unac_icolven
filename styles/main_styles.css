@@ -44,6 +44,20 @@ COLOR PALETTE
 2. Body and some general stuff
 *********************************/
 
+.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
+	background: #ff9600;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
+	/* IE6-9 */
+  }
+
 *
 {
 	margin: 0;
@@ -1567,3 +1581,158 @@ section
 {
 	color: #28262d;
 }
+
+/*********************************
+CSS AÑADIDO
+*********************************/
+
+hr{
+	background: #1F1F1F;
+	padding-top: 3px;
+	padding-bottom: 7px;
+}
+.event_area {
+	position: relative;
+	padding-bottom: 120px;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area {
+	  padding-bottom: 60px;
+	}
+  }
+  
+  /* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area.plus_padding {
+	margin-top: 200px;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area.plus_padding {
+	  margin-top: 60px;
+	}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	/* line 8, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area.plus_padding {
+	  margin-top: 60px;
+	}
+  }
+/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+.event_area .date h3 {
+	font-size: 26px;
+	font-weight: 500;
+	color: #FF0000;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .date h3 {
+	  margin-bottom: 20px;
+	}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .date h3 {
+	  margin-bottom: 30px;
+	}
+  }
+  /* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+.event_area .double_line::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 10px;
+	bottom: 0;
+	left: 0;
+  }
+  
+  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .date h3 {
+	font-size: 26px;
+	font-weight: 500;
+	color: #FF0000;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .date h3 {
+	  margin-bottom: 20px;
+	}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+	/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .date h3 {
+	  margin-bottom: 30px;
+	}
+  }
+  
+  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker {
+	margin-bottom: 63px;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .single_speaker {
+	  margin-bottom: 30px;
+	}
+  }
+  
+  /* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker img {
+	float: left;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .single_speaker img {
+	  float: none;
+	}
+  }
+  
+  /* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker .speaker-name {
+	padding-left: 30px;
+	overflow: hidden;
+  }
+  
+  @media (max-width: 767px) {
+	/* line 83, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+	.event_area .single_speaker .speaker-name {
+	  padding-left: 0;
+	  margin-top: 20px;
+	}
+  }
+  
+  /* line 90, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker .speaker-name .heading {
+	margin-bottom: 5px;
+  }
+  
+  /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker .speaker-name .heading span {
+	font-size: 26px;
+	color: #1F1F1F;
+	font-weight: 500;
+  }
+  
+  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker .speaker-name .heading .time {
+	font-size: 16px;
+	font-weight: 500;
+	color: #1F1F1F;
+  }
+  
+  /* line 104, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .event_area .single_speaker p {
+	color: #707070;
+	font-size: 16px;
+	line-height: 28px;
+  }
+  
