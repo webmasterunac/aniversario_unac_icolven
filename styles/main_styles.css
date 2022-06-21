@@ -1501,6 +1501,9 @@ section
 	color: #452b78;
 	line-height: 1;
 }
+.footer_logo svg{
+	width: 250px;
+}
 .footer_intro p
 {
 	margin-bottom: 0px;
@@ -1625,7 +1628,7 @@ hr{
 .event_area .date h3 {
 	font-size: 26px;
 	font-weight: 500;
-	color: #FF0000;
+	color: #BF7821;
   }
   
   @media (max-width: 767px) {
@@ -1651,12 +1654,6 @@ hr{
 	left: 0;
   }
   
-  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
-  .event_area .date h3 {
-	font-size: 26px;
-	font-weight: 500;
-	color: #FF0000;
-  }
   
   @media (max-width: 767px) {
 	/* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
