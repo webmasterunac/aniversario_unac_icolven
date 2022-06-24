@@ -715,6 +715,7 @@ section
 .card-text
 {
 	line-height: 1.86;
+	font-size: 20px;
 }
 .card-link
 {
