@@ -631,6 +631,11 @@ section
 {
 	line-height: 1.25;
 }
+.icon_box_title span
+{
+	color: #FFFFFF;
+	padding-top: 50px;
+}
 .icon_box_button
 {
 	margin-top: 40px;
@@ -911,10 +916,14 @@ section
 {
 	width: 100%;
 	padding-bottom: 52px;
+	padding-top: 100px;
 }
 .clients_slider
 {
 	height: 187px;
+}
+.clients_slider_container{
+	padding-top: 200px;
 }
 .clients_item
 {
@@ -1326,4 +1335,68 @@ SECCIONES
 	width: 18px;
 	height: 18px;
 	background: #452b78;
+}
+
+/****************
+CTA 2
+****************/
+.cta_2
+{
+	padding-top: 82px;
+	padding-bottom: 78px;
+	background: #2b5983;
+	height: 600px;
+}
+.cta_2_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.cta_2_content h1
+{
+	color: #FFFFFF;
+	margin-bottom: 4px;
+}
+.cta_2_content span
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-left: 4px;
+}
+.cta_2_button_container
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 160%;
+	height: 100%;
+	padding-bottom: 13px;
+}
+.cta_2_button
+{
+	border-color: #FFFFFF;
+	width: 300px;
+}
+.cta_2_button a
+{
+	color: #FFFFFF;
+}
+.cta_2_button:hover
+{
+	background: #FFFFFF;
+}
+.cta_2_button:hover a
+{
+	color: #452b78;
 }
