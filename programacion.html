@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ES">
 <head>
-<title>RanGO - Portfolio</title>
+<title>Programación</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="RanGO Project">
@@ -28,9 +28,9 @@
 			<!-- Navigation -->
 			<nav class="main_nav justify-self-end text-right">
 				<ul>
-					<li class="active"><a href="index.html">Inicio</a></li>
-					<li><a href="#anfitriones">Vuelve a casa</a></li>
-					<li><a href="#movilidad">Programación</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="vuelve_a_casa.html">Vuelve a casa</a></li>
+					<li class="active"><a href="programacion.html">Programación</a></li>
 					<li><a href="#participantes">Información Hoteleria</a></li>
 					<li><a href="#contacto">Registrate</a></li>
 				</ul>
@@ -49,9 +49,9 @@
 			<div class="menu menu_mm text-right">
 				<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
 				<ul class="menu_mm">
-					<li class="menu_mm active"><a href="index.html">Inicio</a></li>
-					<li class="menu_mm"><a href="#anfitriones">Vuelve a casa</a></li>
-					<li class="menu_mm"><a href="#participantes">Programación</a></li>
+					<li class="menu_mm"><a href="index.html">Inicio</a></li>
+					<li class="menu_mm"><a href="vuelve_a_casa.html">Vuelve a casa</a></li>
+					<li class="menu_mm active"><a href="programacion.html">Programación</a></li>
 					<li class="menu_mm"><a href="#movilidad">Información Hoteleria</a></li>
 					<li class="menu_mm"><a href="#contacto">Registrate</a></li>
 	
@@ -63,12 +63,12 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80)"></div>
+			<div class="home_background prlx" style="background-color: #dae9ed;"></div>
 		</div>
 		
 		<div class="home_title">
 			<h2>Programación</h2>
-			<p>Conoce las actividades del aniversario</p>
+			<p>Utiliza los filtros para conocer las diversas actividades</p>
 			<div class="next_section_scroll">
 				<div class="next_section nav_links" data-scroll-to=".portfolio">
 					<i class="fas fa-chevron-down trans_200"></i>
@@ -76,17 +76,15 @@
 				</div>
 			</div>
 		</div>
-	
 	</div>
 
 	<!-- Portfolio -->
 
 	<div class="portfolio">
-		
 		<div class="container">
 			<div class="row">
-				
-				<div class="col">
+				<div class="col">		
+						<h3>Filtro por días</h3>
 					<div class="portfolio_categories button-group filters-button-group">
 						<ul>
 							<li class="portfolio_category active is-checked" data-filter="*">Todo</li>
@@ -97,9 +95,23 @@
 						</ul>
 					</div>
 				</div>
-
 			</div>
-
+<br>
+			<div class="row">
+				<div class="col">		
+						<h3>Filtro por actividades</h3>
+					<div class="portfolio_categories button-group filters-button-group">
+						<ul>
+							<li class="portfolio_category active is-checked" data-filter="*">Todo</li>
+							<li class="portfolio_category" data-filter=".deportes">Deportes</li>
+							<li class="portfolio_category" data-filter=".espirituales">Espirituales</li>
+							<li class="portfolio_category" data-filter=".conferencias">Conferencias</li>
+							<li class="portfolio_category" data-filter=".aniversario">Aniversario</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr class="separador-filtros">
 			<div class="row">
 				<div class="col">
 					
@@ -107,20 +119,28 @@
 
 						<!--JUEVES-->
 						<!-- Portfolio Item -->
-						<div class="card jueves">
+						<div class="card jueves conferencias">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1505845753232-f74a87b62db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2676&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Jueves</div>
+								<div class="card-header">Jueves - conferencia</div>
 								<div class="card-title">Inauguración Aniversario</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">7:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -135,12 +155,20 @@
 							<div class="card-body">
 								<div class="card-header">Jueves</div>
 								<div class="card-title">Clavija</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">9:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -155,12 +183,20 @@
 							<div class="card-body">
 								<div class="card-header">Jueves</div>
 								<div class="card-title">Dulces sueños</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -178,32 +214,48 @@
 							<div class="card-body">
 								<div class="card-header">Viernes</div>
 								<div class="card-title">Registro del evento</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">8:00AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Edificio central</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card viernes">
+						<div class="card viernes espirituales">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1546795708-c962dc089798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
 								<div class="card-header">Viernes</div>
 								<div class="card-title">Desafío de las generaciones</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:00AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -218,32 +270,48 @@
 							<div class="card-body">
 								<div class="card-header">Viernes</div>
 								<div class="card-title">Receso del almuerzo</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">12:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card viernes">
+						<div class="card viernes deportes">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1626248801379-51a0748a5f96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Viernes</div>
+								<div class="card-header">Viernes - deportes</div>
 								<div class="card-title">Torneos deportivos</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">1:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -258,12 +326,20 @@
 							<div class="card-body">
 								<div class="card-header">Viernes</div>
 								<div class="card-title">Receso para cenar</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">5:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -271,40 +347,56 @@
 						</div>
 
 						<!-- Portfolio Item -->
-						<div class="card viernes">
+						<div class="card viernes espirituales">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Viernes</div>
+								<div class="card-header">Viernes - espiritual</div>
 								<div class="card-title">Gran recepción de sábado</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">6:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card viernes">
+						<div class="card viernes espirituales">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1532190795157-3f983fb7fa3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">Viernes</div>
+								<div class="card-header">Viernes - espiritual</div>
 								<div class="card-title">Programa espiritual</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">7:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -319,12 +411,20 @@
 							<div class="card-body">
 								<div class="card-header">viernes</div>
 								<div class="card-title">Clavija</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">9:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -339,12 +439,20 @@
 							<div class="card-body">
 								<div class="card-header">viernes</div>
 								<div class="card-title">Dulces sueños</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -362,12 +470,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Primer servicio de adoración</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">8:30AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -382,12 +498,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Escuela sabática</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:10AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -402,12 +526,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Momento de adoración</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:50AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -422,12 +554,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Segundo servicio</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">11:20AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -442,12 +582,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Receso del almuerzo</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">12:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -462,12 +610,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Sociedad de jóvenes por regiones o campos</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">2:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -482,12 +638,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Gran parada de clubes</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">4:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -502,12 +666,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Sociedad de jovenes: Rebobinando las generaciones</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">4:40PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -522,12 +694,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Receso para cenar</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">6:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -535,20 +715,28 @@
 						</div>
 
 						<!-- Portfolio Item -->
-						<div class="card sabado">
+						<div class="card sabado conferencias">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1531660963020-52ba84d92593?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Noche cultural</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">7:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -563,12 +751,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Clavija</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">9:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -583,12 +779,20 @@
 							<div class="card-body">
 								<div class="card-header">sabado</div>
 								<div class="card-title">Dulces sueños</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -598,100 +802,140 @@
 
 						<!--DOMINGO-->
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo aniversario">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Llegada de delegaciones, bandas e invitados</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">7:30AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo aniversario">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1546795708-c962dc089798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Acto civico</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">9:00AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo aniversario">
 							<div class="card_image">
 								<img class="card-img-top" src="https://images.unsplash.com/photo-1546795708-c962dc089798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Desfile de Aniversario</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">10:00AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo aniversario">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1546795708-c962dc089798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2550&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Partida de torta aniversario</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">11:20AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo aniversario">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2640&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Lluvia de regalos de aniversario</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">11:40AM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -700,58 +944,54 @@
 						<!-- Portfolio Item -->
 						<div class="card domingo">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1626248801379-51a0748a5f96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - aniversario</div>
 								<div class="card-title">Festival gastronómico especial</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">12:30PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
 						<!-- Portfolio Item -->
-						<div class="card domingo">
+						<div class="card domingo deportes">
 							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1626248801379-51a0748a5f96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1637203725059-53f993d6ae02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
 							</div>
 							
 							<div class="card-body">
-								<div class="card-header">domingo</div>
+								<div class="card-header">domingo - deportes</div>
 								<div class="card-title">Final deportiva</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
 									<div class="col-9 card-text">2:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
-									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
-								</div>
-								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
-							</div>
-						</div>
-						<!-- Portfolio Item -->
-						<div class="card domingo">
-							<div class="card_image">
-								<img class="card-img-top" src="https://images.unsplash.com/photo-1626248801379-51a0748a5f96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="image by https://unsplash.com/@heysupersimi">
-							</div>
-							
-							<div class="card-body">
-								<div class="card-header">domingo</div>
-								<div class="card-title">Receso para cenar</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
-									<div class="col-9 card-text">6:00PM</div>
-								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
@@ -765,19 +1005,54 @@
 							
 							<div class="card-body">
 								<div class="card-header">domingo</div>
-								<div class="card-title">Noche de premier cultural y clausura</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/clock.png" alt="" width="50px"></div>
-									<div class="col-9 card-text">7:00PM</div>
+								<div class="card-title">Receso para cenar</div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
+									<div class="col-9 card-text">6:00PM</div>
 								</div>
-								<div class="row">
-									<div class="col-2"><img src="images/icons/map.png" alt="" width="50px"></div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
 									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
 								</div>
 								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
 							</div>
 						</div>
-
+						<!-- Portfolio Item -->
+						<div class="card domingo aniversario">
+							<div class="card_image">
+								<img class="card-img-top" src="https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2952&q=80" alt="image by https://unsplash.com/@heysupersimi">
+							</div>
+							
+							<div class="card-body">
+								<div class="card-header">domingo  - aniversario</div>
+								<div class="card-title">Noche de premier cultural y clausura</div>
+								<div class="row icono">
+									<div class="col-2">
+										<div class="text-center">
+											<img src="images/icons/clock.png" alt="" width="50px">
+										</div>
+									</div>
+									<div class="col-9 card-text">7:00PM</div>
+								</div>
+								<div class="row icono">
+										<div class="col-2">
+											<div class="text-center">
+												<img src="images/icons/map.png" alt="">
+											</div>
+									</div>
+									<div class="col-9 card-text">Auditorio G.W. Chapman</div>
+								</div>
+								<div class="card-link"><a href="portfolio_item.html">read more</a></div>
+							</div>
+						</div>
 	<!-- Footer -->
 
 	<footer class="footer">

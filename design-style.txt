@@ -1,0 +1,9 @@
+COLORS:
+    PRINCIPAL: #2b5983
+    SECUNDARIO: #dae9ed
+    ADDITIONAL COLORS:
+    #82AACF
+    #1A354F
+    #5F7C97
+    #448CCF
+    
