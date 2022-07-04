@@ -329,13 +329,13 @@ section
 	left: 0;
 	width: 100%;
 	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
+	background: rgba(43, 89, 131, 0.51);
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(43, 89, 131, 0.92);
 }
 
 /*********************************
@@ -945,16 +945,17 @@ section
 }
 .clients_item img
 {
+	transition: transform .2s;
 	margin: 0 auto;
 }
 .clients_item:hover .client_item_background
 {
-	background: #452b78;
+	background: #2b5983;
+	transform: scale(1.1);
 }
 .clients_item:hover img
 {
-	-webkit-filter: brightness(200%);
-	filter: brightness(200%);
+	transform: scale(1.1);
 }
 .owl-carousel .owl-item img
 {
@@ -1034,18 +1035,21 @@ section
 
 .footer
 {
-	padding-top: 99px;
-	padding-bottom: 82px;
+	padding-top: 12px;
+	padding-bottom: 0px;
 }
 .footer_logo
 {
 	padding-left: 0px;
-	margin-bottom: 39px;
+	margin-bottom: 10px;
 }
 .footer_logo a
 {
 	color: #452b78;
 	line-height: 1;
+}
+.footer_logo svg{
+	width: 250px;
 }
 .footer_intro p
 {
@@ -1083,7 +1087,7 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #cacaca;
-	margin-top: 65px;
+	margin-top: 0px;
 }
 .footer_cr_2
 {
@@ -1135,7 +1139,7 @@ SECCIONES
 .section
 {
 	width: 100%;
-	height: 800px;
+	height: 600px;
 }
 .section_background_container
 {
@@ -1184,8 +1188,8 @@ SECCIONES
 
 .v_slider_section_cta
 {
-	top: 5rem;
-	height: 604px;
+	top: 7rem;
+	height: auto;
 }
 .v_slider_image_cta
 {
@@ -1336,6 +1340,9 @@ SECCIONES
 	height: 18px;
 	background: #452b78;
 }
+#antes_despues1{
+	height:310px;
+}	
 
 /****************
 CTA 2

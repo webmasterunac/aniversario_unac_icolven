@@ -745,19 +745,21 @@ section
 
 .footer
 {
-	padding-top: 99px;
-	padding-bottom: 82px;
-	border-top: solid 1px #dcdcdc;
+	padding-top: 12px;
+	padding-bottom: 0px;
 }
 .footer_logo
 {
 	padding-left: 0px;
-	margin-bottom: 39px;
+	margin-bottom: 10px;
 }
 .footer_logo a
 {
 	color: #452b78;
 	line-height: 1;
+}
+.footer_logo svg{
+	width: 250px;
 }
 .footer_intro p
 {
@@ -795,7 +797,7 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #cacaca;
-	margin-top: 65px;
+	margin-top: 0px;
 }
 .footer_cr_2
 {

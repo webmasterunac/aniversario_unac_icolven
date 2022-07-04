@@ -106,35 +106,15 @@ $(document).ready(function()
 			{
 				items: 1,
 				loop: true,
-				autoplay:false,
+				autoplay:true,
 				animateOut: 'slideOutDown',
 				animateIn: 'flipInX',
 				dots:false,
 				nav:false,
 				autoplayTimeout:5000,
 				autoplaySpeed:800,
-				smartSpeed:800
+				smartSpeed:450
 			});
-
-			if($('.hero_slider_prev').length)
-			{
-				var prev = $('.hero_slider_prev');
-
-				prev.on('click', function()
-				{
-					heroSlider.trigger('prev.owl.carousel');
-				});
-			}
-
-			if($('.hero_slider_next').length)
-			{
-				var prev = $('.hero_slider_next');
-
-				prev.on('click', function()
-				{
-					heroSlider.trigger('next.owl.carousel');
-				});
-			}
 		}
 	}
 
@@ -256,6 +236,7 @@ $(document).ready(function()
 
 			vSlider.slick(
 			{
+				autoplay: true,
 				infinite: false,
 				vertical: true,
 				arrows: false,

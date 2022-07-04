@@ -203,11 +203,15 @@
 	}
 	.v_slider_content
 	{
-		margin-top: 86px;
+		margin-top: 0px;
 	}
 	.team_title
 	{
 		margin-bottom: 105px;
+	}
+	.v_slider_title_cta h1 {
+		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 	.team_container
 	{
@@ -243,6 +247,7 @@
 	{
 		height: auto;
 		padding-top: 0px;
+		top: 4rem;
 	}
 	.v_slider_cta .slick-dots
 	{
@@ -276,6 +281,9 @@
 	}
 	.v_slider_section_image iframe {
 		height: 190px;
+	}
+	#antes_despues1{
+		height: 200px;
 	}
 }
 
@@ -391,7 +399,7 @@
 	.header.scrolled
 	{
 		height: 50px;
-		background: rgba(27, 11, 51, 0.92);
+		background: rgba(43, 89, 131, 0.92);
 	}
 	.logo a
 	{
