@@ -287,7 +287,7 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #452b78;
+	border: solid 2px #2b5983;
 	background: transparent;
 }
 .button a
@@ -298,7 +298,7 @@ section
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	color: #452b78;
+	color: #2b5983;
 }
 #calendar{
 	width: 300px;
@@ -349,7 +349,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 128px;
-	background: #2B5983;
+	background: rgb(43, 89, 131, 0.51);
 	z-index: 10;
 }
 .header.scrolled
@@ -827,7 +827,7 @@ section
 }
 .icon_box_button:hover
 {
-	background: #452b78;
+	background: #2b5983;
 }
 .icon_box_button:hover a
 {
@@ -989,7 +989,7 @@ section
 	border: none;
 	text-indent: -9999px;
 	cursor: pointer;
-	background: #d6cbed;
+	background: #82AACF;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1006,7 +1006,7 @@ section
 {
 	width: 18px;
 	height: 18px;
-	background: #452b78;
+	background: #2b5983;
 }
 
 /*********************************
@@ -1028,7 +1028,7 @@ section
 	display: block;
 	font-size: 18px;
 	font-weight: 500;
-	color: #452b78;
+	color: #2b5983;
 	margin-top: 29px;
 }
 
@@ -1416,7 +1416,7 @@ section
 }
 .text_line_button:hover
 {
-	background: #452b78;
+	background: #2b5983;
 }
 .text_line_button:hover a
 {
@@ -1752,7 +1752,7 @@ CSS TESTIMONIOS
 }
 .card
 {
-	background: #f6f4f9;
+	background: #edf4f6;
 	border: none;
 }
 .card:hover
@@ -1780,11 +1780,11 @@ CSS TESTIMONIOS
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #432b75;
+	color: #2b5983;
 }
 .card-link:hover
 {
-	color: #5c3f95;
+	color:  #448CCF;
 }
 
 /*********************************
@@ -1848,7 +1848,7 @@ CSS TESTIMONIOS
 }
 .cta_2_button:hover a
 {
-	color: #452b78;
+	color: #2b5983;
 }
 
 
