@@ -1460,7 +1460,6 @@ section
 {
 	text-align: center;
 	margin-top: 40px;
-	padding-top: 10px;
 }
 .newsletter_form_container a
 {
@@ -1469,6 +1468,7 @@ section
 	width: 300px;
 	text-align: center;
 	background: transparent;
+	padding-top: 10px;	
 }
 .newsletter_email
 {
