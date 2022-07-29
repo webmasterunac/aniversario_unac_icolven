@@ -940,6 +940,9 @@ section
 	color: #452b78;
 	line-height: 1;
 }
+.footer_logo svg{
+	width: 250px;
+}
 .footer_intro p
 {
 	margin-bottom: 0px;
