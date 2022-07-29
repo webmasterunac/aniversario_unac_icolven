@@ -544,6 +544,7 @@
 	.text_line_content
 	{
 		padding-top: 40px;
+		padding-bottom: 0px;
 	}
 	.text_line_content h1
 	{
@@ -552,6 +553,9 @@
 	.text_line_content p
 	{
 		margin-bottom: 21px;
+	}
+	.text_line_image{
+		padding-top: 65px;
 	}
 	.newsletter_content
 	{
@@ -584,7 +588,9 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.v_slider_content {
+		margin-top: 20px;
+	}
 }
 
 /************
