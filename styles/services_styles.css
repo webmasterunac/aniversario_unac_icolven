@@ -321,7 +321,7 @@ section
 }
 
 /*********************************
-3.1 Header
+3.1 Header	
 *********************************/
 
 .header
@@ -331,13 +331,13 @@ section
 	left: 0;
 	width: 100%;
 	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
+	background: rgb(43, 89, 131, 0.51);
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(33, 67, 99, 0.92);
 }
 
 /*********************************
@@ -861,7 +861,7 @@ section
 .newsletter
 {
 	width: 100%;
-	background: #1b0d37;
+	background: #2b5983;
 }
 .newsletter_content
 {
@@ -877,6 +877,10 @@ section
 	color: #FFFFFF;
 	margin-bottom: 13px;
 }
+.newsletter_title h2
+{
+	color: #FFFFFF;
+}
 .newsletter_title span
 {
 	font-size: 16px;
@@ -885,13 +889,22 @@ section
 }
 .newsletter_form_container
 {
-	text-align: left;
-	margin-top: 77px;
+	text-align: center;
+	margin-top: 40px;
+}
+.newsletter_form_container a
+{
+	display: inline-block;
+	height: 54px;
+	width: 300px;
+	text-align: center;
+	background: transparent;
+	padding-top: 10px;	
 }
 .newsletter_email
 {
 	height: 53px;
-	background: #452b78;
+	background: #2b5983;
 	border: none;
 	padding-left: 30px;
 	width: calc(100% - 174px - 26px);
@@ -910,17 +923,17 @@ section
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 700;
+	border: solid 2px #ffffff;
 }
 .newsletter_submit_button:hover
 {
-	background: #452b78;
+	background: #d3d3d3;
 }
 .newsletter_submit_button:focus
 {
 	outline: none;
 	border: none;
 }
-
 /*********************************
 10. Footer
 *********************************/

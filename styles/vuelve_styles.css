@@ -1234,6 +1234,11 @@ SECCIONES
 	margin-bottom: 81px;
 	color: #FFFFFF;
 }
+.v_slider_title_cta span 
+{
+	color: #FFFFFF;
+	font-size: 18px;
+}
 .v_slider_item_cta
 {
 	border: none !important;

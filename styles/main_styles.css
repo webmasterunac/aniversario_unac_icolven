@@ -915,6 +915,10 @@ section
 {
 	line-height: 52px;
 }
+.v_slider_item #sonar
+{
+	margin-bottom: 17px;
+}
 .v_slider_item h1:last-of-type
 {
 	margin-bottom: 81px;
