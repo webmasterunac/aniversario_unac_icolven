@@ -842,3 +842,9 @@ section
 	color: #28262d;
 }
 
+.cajita{
+	background-color: #2b5983;
+	display: inline-block;
+	color: white;
+	padding: 10px 15px;
+}

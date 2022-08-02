@@ -1403,12 +1403,11 @@ section
 .text_line_image
 {
 	position: absolute;
-	bottom: 49px;
-	right: 0;
+	bottom: -10px;
 }
 .text_line_image img
 {
-	max-width: 80%;
+	max-width: 60%;
 	height: auto;
 }
 .text_line_content
@@ -1874,5 +1873,4 @@ CSS TESTIMONIOS
 {
 	color: #2b5983;
 }
-
 
