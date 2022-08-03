@@ -119,12 +119,12 @@ p a:hover::after
 }
 ::selection
 {
-	background: #ffd9bf;
-	color: #ff6b09;
+	background: #bfc3ff;
+	color: #096bff;
 }
 p::selection
 {
-	background: #ffd9bf;
+	background: #bfc3ff;
 }
 h1{font-size: 48px;}
 h2{font-size: 24px;}
@@ -1035,4 +1035,24 @@ section
 .footer_col ul li a:hover
 {
 	color: #28262d;
+}
+.cajita{
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 3px 20px;
+	border-radius: 50px;
+	transition: all .2s ease-in-out; 
+}
+.cajita:hover {
+	transform: scale(1.1,1.1);
+	background-color: #F7BD45;
+}
+.main_nav ul li .cajita
+{
+	color: #2b5983;
+}
+.main_nav ul li .cajita:hover
+{
+	color: #2b5983;
+	color: white;
 }
