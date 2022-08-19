@@ -1919,11 +1919,27 @@ CSS TESTIMONIOS
 	top: 0;
 	width: 100%;
 }
-.boton_flotante{
-	text-align: center;
+
+.flotante{
 	position: absolute;
-	width: 200px;
-	height: 70px;
-	right: 100px;
-	left: 40px;
+	bottom: 50px;
+	right: 30px;
+}
+
+.button_flotante{
+	width: 150px;
+	height: 60px;
+	background-color: #096bff;
+	border-radius: 20px;
+}
+.icono{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: white;
+}
+.icono span, i{
+	padding-left: 5px;
+	font-size: 20px;
 }

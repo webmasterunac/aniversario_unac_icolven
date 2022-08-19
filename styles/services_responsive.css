@@ -190,6 +190,9 @@
 	{
 		display: block;
 	}
+	.flotante{
+		visibility: visible;
+	}
 }
 
 /************

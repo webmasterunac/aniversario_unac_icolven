@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+
 }
 
 /************
@@ -41,6 +41,7 @@
 	{
 		margin-right: 50px;
 	}
+
 }
 
 /************
@@ -151,6 +152,9 @@
 	{
 		display: block;
 	}
+	.flotante{
+		visibility: visible;
+	}
 }
 
 /************
@@ -230,7 +234,9 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	.flotante{
+		display: show;
+	}
 }
 
 /************
