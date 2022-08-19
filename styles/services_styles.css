@@ -1056,3 +1056,11 @@ section
 	color: #2b5983;
 	color: white;
 }
+
+#inscribete_movil{
+	font-weight: 700;
+	background-color: #ff6b09;
+	padding: 3px 20px;
+	color:white;
+	border-radius: 20px;
+}

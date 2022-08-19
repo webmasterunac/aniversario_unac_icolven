@@ -1898,3 +1898,32 @@ CSS TESTIMONIOS
 	color: #2b5983;
 	color: white;
 }
+
+#inscribete_movil{
+	font-weight: 700;
+	background-color: #ff6b09;
+	padding: 3px 20px;
+	color:white;
+	border-radius: 20px;
+}
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 400px;
+	padding-top: 30px;
+	position: relative;
+}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.boton_flotante{
+	text-align: center;
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	right: 100px;
+	left: 40px;
+}
